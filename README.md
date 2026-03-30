@@ -1,15 +1,14 @@
 # Gherkin Step Navigator for RobotCode
 
+<div align="center">
+  <img src="icons/new_logo.png" alt="Gherkin Step Navigator Logo" width="128" height="128" />
+</div>
+
 **Go to Definition** and **Hover** support for Gherkin steps in Robot Framework projects.
 
 > **Companion Extension**: This extension is designed to work alongside [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin), providing enhanced navigation features for Gherkin-based BDD testing with Robot Framework.
 
 Navigate directly from Gherkin feature files to their Robot Framework keyword implementations.
-
-## Prerequisites
-
-- [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) — Robot Framework support for VS Code
-- [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) — Gherkin syntax support for RobotCode
 
 ## Features
 
@@ -43,9 +42,8 @@ Feature: User Login
 ## Installation
 
 1. Install [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) for Robot Framework support
-2. Install [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) for Gherkin syntax and language support
+2. Install [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) for Gherkin syntax support
 3. Install this extension from the VS Code Marketplace
-4. Open a workspace with `.feature` files and `.resource` files
 
 ## How It Works
 
@@ -82,8 +80,8 @@ a user named "${name}" with password "${password}"
 ## Requirements
 
 - VS Code 1.82.0 or later
-- [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) — for Robot Framework support
-- [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) — for Gherkin syntax support
+- [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) — Robot Framework support for VS Code
+- [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) — Gherkin syntax support for RobotCode
 - Robot Framework keyword files (`.resource`)
 
 ## Compatibility
