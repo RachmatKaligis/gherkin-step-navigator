@@ -2,7 +2,7 @@
   "name": "gherkin-step-navigator",
   "displayName": "Gherkin Step Navigator for RobotCode",
   "description": "Go to Definition and Hover for Gherkin steps in Robot Framework projects. Companion extension for RobotCode GherkinParser Support.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "RachmatKaligis",
   "author": {
     "name": "Rachmat Kaligis",
