@@ -2,14 +2,14 @@
 
 **Go to Definition** and **Hover** support for Gherkin steps in Robot Framework projects.
 
-> **Companion Extension**: This extension is designed to work alongside [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=RachmatKaligis.robotcode-gherkin-extended), providing enhanced navigation features for Gherkin-based BDD testing with Robot Framework.
+> **Companion Extension**: This extension is designed to work alongside [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin), providing enhanced navigation features for Gherkin-based BDD testing with Robot Framework.
 
 Navigate directly from Gherkin feature files to their Robot Framework keyword implementations.
 
 ## Prerequisites
 
 - [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) — Robot Framework support for VS Code
-- [RobotCode GherkinParser Support (Extended)](https://marketplace.visualstudio.com/items?itemName=RachmatKaligis.robotcode-gherkin-extended) — Gherkin syntax support for RobotCode
+- [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) — Gherkin syntax support for RobotCode
 
 ## Features
 
@@ -43,7 +43,7 @@ Feature: User Login
 ## Installation
 
 1. Install [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) for Robot Framework support
-2. Install [RobotCode GherkinParser Support (Extended)](https://marketplace.visualstudio.com/items?itemName=RachmatKaligis.robotcode-gherkin-extended) for Gherkin syntax and language support
+2. Install [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) for Gherkin syntax and language support
 3. Install this extension from the VS Code Marketplace
 4. Open a workspace with `.feature` files and `.resource` files
 
@@ -83,12 +83,12 @@ a user named "${name}" with password "${password}"
 
 - VS Code 1.82.0 or later
 - [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) — for Robot Framework support
-- [RobotCode GherkinParser Support (Extended)](https://marketplace.visualstudio.com/items?itemName=RachmatKaligis.robotcode-gherkin-extended) — for Gherkin syntax support
+- [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin) — for Gherkin syntax support
 - Robot Framework keyword files (`.resource`)
 
 ## Compatibility
 
-This extension is designed to work as a **companion** to [RobotCode GherkinParser Support (Extended)](https://marketplace.visualstudio.com/items?itemName=RachmatKaligis.robotcode-gherkin-extended):
+This extension is designed to work as a **companion** to [RobotCode GherkinParser Support](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode-gherkin):
 - Provides navigation features (Go to Definition, Hover) that complement the GherkinParser
 - Does not register language grammars or syntax highlighting (handled by GherkinParser)
 - Works seamlessly with existing RobotCode extensions

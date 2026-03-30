@@ -38,7 +38,7 @@
     "GherkinParser"
   ],
   "extensionDependencies": [
-    "RachmatKaligis.robotcode-gherkin-extended"
+    "d-biehl.robotcode-gherkin"
   ],
   "icon": "icons/icon.png",
   "galleryBanner": {
