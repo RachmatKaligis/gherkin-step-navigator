@@ -1,7 +1,7 @@
-# Gherkin Step Navigator for RobotCode
+# Robot Framework Gherkin Step Navigator
 
 <div align="center">
-  <img src="icons/new_logo.png" alt="Gherkin Step Navigator Logo" width="128" height="128" />
+  <img src="icons/new_logo.png" alt="Robot Framework Gherkin Step Navigator Logo" width="128" height="128" />
 </div>
 
 **Go to Definition** and **Hover** support for Gherkin steps in Robot Framework projects.
